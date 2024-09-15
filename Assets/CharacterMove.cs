@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(BoxCollider))]
+[RequireComponent(typeof(Collider))]
 public class CharacterMove : MonoBehaviour
 {
     [Header("Физика"), SerializeField]

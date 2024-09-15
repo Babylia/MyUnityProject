@@ -62,13 +62,14 @@
   <ItemGroup>
     <Compile Include="Assets\CharacterInteraction.cs" />
     <Compile Include="Assets\CharacterStatsBehavior.cs" />
+    <Compile Include="Assets\Scripts\CharactersScripts\BasicCharacterBehavior.cs" />
     <Compile Include="Assets\CharacterMove.cs" />
     <Compile Include="Assets\RotateScript.cs" />
     <Compile Include="Assets\ProjectileBehavior.cs" />
     <Compile Include="Assets\EnemyManager.cs" />
-    <Compile Include="Assets\HeroScripts\BasicHero.cs" />
     <Compile Include="Assets\ParticleManager.cs" />
     <Compile Include="Assets\CubeManagerScript.cs" />
+    <Compile Include="Assets\Scripts\CharactersScripts\PlayerCharacterBehavior.cs" />
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\CharacterVision.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\UnitPlacement.cs" />
     <Compile Include="Assets\GrenadeBehavior.cs" />
     <Compile Include="Assets\EnemyBehavior.cs" />
+    <Compile Include="Assets\Scripts\World\WorldGeneratorScript.cs" />
     <Compile Include="Assets\ParticleController.cs" />
     <Compile Include="Assets\CubeScript.cs" />
   </ItemGroup>
